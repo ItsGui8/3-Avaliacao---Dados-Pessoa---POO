@@ -1,15 +1,8 @@
 import javax.swing.JOptionPane;
-//import java.util.ArrayList;
 
 public class Main {
 
     public static void main(String[] args) {
-       
-        //ArrayList<Cliente> clientes = new ArrayList<>();
-        //ArrayList<Funcionario> funcionarios = new ArrayList<>();
-        
-        //ClienteDAO clienteDao = new ClienteDAO();
-        //FuncionarioDAO funcionarioDao = new FuncionarioDAO();
         
         while (true) {
             String[] options = {"Criar um cliente", "Atualizar um cliente", "Listar clientes", "Excluir um cliente", 
