@@ -1,14 +1,11 @@
 
 public abstract class PessoaBase {
-        //private static int count = 0;
         private int id;
         private String nome;
         private String endereco;
         private String telefone;
 
         public PessoaBase() {
-        	//count++;
-        	//id = count;
         	
         }
         
@@ -17,8 +14,7 @@ public abstract class PessoaBase {
         	this.nome = nome;
         	this.endereco = endereco;
         	this.telefone = telefone;
-        	//count++;
-        	//id = count;
+        
         }
 
         public int getId() {
