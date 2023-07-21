@@ -3,7 +3,7 @@ public class Cliente extends PessoaBase {
 	private String cpf;
 	
 	public Cliente() {
-		//super();
+		
 	}
 	
 	public Cliente(int id, String nome, String endereco, String telefone) {
