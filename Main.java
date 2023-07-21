@@ -174,7 +174,10 @@ public class Main {
         funcionarioAtual.setCargo(cargo);
         double salario = Double.parseDouble(JOptionPane.showInputDialog("Digite o novo salário do funcionário: "));
         funcionarioAtual.setSalario(salario);
-        String dataAdmissao = JOptionPane.showInputDialog("Digite a nova data de admissão do funcionário: ");
+        String anoAdmissao = JOptionPane.showInputDialog("Digite o novo ano de admissão do funcionário: ");
+        String mesAdmissao = JOptionPane.showInputDialog("Digite o novo mês do ano de admissão do funcionário: ");
+        String diaAdmissao = JOptionPane.showInputDialog("Digite o novo dia do mês de admissão do funcionário: ");
+        String dataAdmissao = anoAdmissao+"-"+mesAdmissao+"-"+diaAdmissao;
         funcionarioAtual.setDataAdmissao(dataAdmissao);
         
         funcionarioDao.atualizarFuncionario(funcionarioAtual);	
