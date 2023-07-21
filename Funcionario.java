@@ -5,7 +5,7 @@ public class Funcionario extends PessoaBase {
 	private String dataAdmissao;
 	
 	public Funcionario() {
-		//super();
+		
 	}
 	
 	public Funcionario(int id, String nome, String endereco, String telefone) {
